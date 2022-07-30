@@ -8,7 +8,7 @@
 }
 header
 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -25,6 +25,25 @@ header .logo
   cursor: pointer;
 }
 
+.portfolio{
+  text-align: left;
+  color:#fff;
+  background-color: #0e2d0cd0;
+}
+
+.portfolio_text h1 {
+
+}
+
+.portfolio_text h1 {
+
+}
+
+.portfolio_text p{
+  margin:
+}
+
+
 .showcase
 {
   position: absolute;
@@ -35,7 +54,7 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  background: rgb(124, 124, 124);
   transition: 0.5s;
   z-index: 2;
 }
@@ -54,14 +73,14 @@ header .logo
   object-fit: cover;
   opacity: .6;
 }
-.overlay
+.overlay_welcome
 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ece633;
+  background: #0a5202d0;
   mix-blend-mode: overlay;
   opacity: .3;
 }
@@ -99,19 +118,21 @@ header .logo
 {
   display: inline-block;
   font-size: 1em;
-  background: #fff;
+  background: rgb(239, 236, 43);
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #111;
+  color: rgb(0, 0, 0);
   letter-spacing: 2px;
   transition: 0.2s;
+  border-radius: 10px;
 }
 .text a:hover
 {
-  letter-spacing: 6px;
+  letter-spacing: 5px;
+  color:#000000;
 }
 .social
 {
@@ -131,12 +152,12 @@ header .logo
   display: inline-block;
   margin-right: 20px;
   filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s;
+  transform: scale(.7);
+  transition: .4s;
 }
 .social li a:hover
 {
-  transform: scale(0.5) translateY(-15px);
+  transform: scale(0.7) translateY(-15px);
 }
 .menu
 {
