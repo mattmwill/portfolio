@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 header
 {
@@ -12,7 +11,7 @@ header
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 40px 0px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -25,27 +24,74 @@ header .logo
   cursor: pointer;
 }
 
-.portfolio{
+/*Side margins must match .nav-bar*/
+.main{
   text-align: left;
-  color:#fff;
-  background-color: #0e2d0cd0;
+  color:rgb(19, 19, 19);
+  background-color: #d1d1d1;
+  font-family: "avenir", sans-serif;
+  min-height: 100vh;
+  align-items: left;
+  padding: 25px;
+  margin-left:0px;
+  margin-right:0px;
 }
 
-.portfolio_text h1 {
+/*Side margins must match .main*/
+.nav-bar {
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: #eeeeee;
+  font-family: "avenir",sans-serif;
+}
+
+.nav-title{
+  position: relative;
+  text-align: left;
+  padding: 25px;
+  margin-bottom: 0px;
+}
+
+.nav-content ul {
+  margin: 15px;
+  position: relative;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-social{
+  margin: 10px;
+}
+
+.nav-title h1{
+  color : black; 
+  text-align: left;
+}
+
+.nav-title h2{
+  color : black; 
+  position: relative;
+  text-align: left;
+}
+
+.nav-content {
 
 }
 
-.portfolio_text h1 {
-
+.main div {
+  margin-bottom: 15px;
 }
 
-.portfolio_text p{
-  margin:
+.main img {
+  border-radius: 10px;
+  margin-left: 2px;
+  margin-right: 3px;
+  align-items: center;
 }
-
 
 .showcase
 {
+  font-family: "poppins", sans-serif;
   position: absolute;
   right: 0;
   width: 100%;
